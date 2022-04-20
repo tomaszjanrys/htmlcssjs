@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td,table{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabele</h1>
+    <hr>
+    <b>
+        <h3>Emmet table>tr*2>td*3</h3>
+    </b>
+    <br>
+    <table>
+        <tr>
+            <td>1</td>
+            <td rowspan="2">Polaczone dwa wiersze</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>a</td>
+          <!--   <td>b</td> -->
+            <td>c</td>
+        </tr>
+        <tr>
+            <td colspan="2">a</td>
+           <!--  <td>b</td> -->
+            <td>c</td>
+        </tr>
+        <tr>
+            <td colspan="3">a</td>
+           <!--  <td>b</td>
+            <td>c</td> -->
+        </tr>
+    </table>
+    <hr><br>
+    <table>
+        <caption><mark>Tu opis tabelki</mark></caption>
+        <thead>
+            <tr>
+                <th>Nazwa kolumny 1</th>
+                <th>Nazwa kolumny 2</th>
+                <th>Nazwa kolumny 3</th>
+                <th>Nazwa kolumny 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>2</td>
+                <td>3</td>
+                <td colspan="2">4</td>
+               <!--  <td>5</td> -->
+            </tr>
+            <tr>
+              <!--   <td>a</td> -->
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+                <td>e</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Stopka</td>
+           
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <h2>Tabelka 3</h2>
+    <br>
+    <table>
+        <caption><small>Nowa tabelka</small></caption>
+        <thead>
+            <colgroup>
+            <col span="2" style="background-color: brown;">
+            <col span="1" style="background-color: orangered;">
+            <col span="1" style="background-color: greenyellow">
+            </colgroup>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

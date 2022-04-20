@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JS kurs z udemy </h1>
+    <hr>
+    <h2>Swicth if else </h2>
+    <hr>
+    <script>
+let x = 3;
+
+switch (2){
+    case 2:
+        console.log("To jest dwa");
+        break;
+    case 3:
+        console.log("To jest trzy");
+        break;
+    case 4:
+        console.log("To jest cztery");
+        break;
+    default:
+        console.log("Jestes po za zakresem");
+}
+let tablica = [1,3,344,2,2,3];
+let y= 0;
+while(y<tablica.length){
+    console.log(y+"liczba :" + tablica[y]);
+    y++;
+};
+let y2 =0;
+for (y2;y2<6;y2++)
+{
+console.log("To jest petla for",y2);
+ switch(y2){
+    case 0:
+        console.log("a");
+        break;
+    case 2:
+        console.log("b");
+        break;
+    case 3:
+        console.log("c");
+        break;
+    default:
+        console.log("koniec");
+} 
+}
+
+function multiply(a,b)
+{
+let result = a *b;
+return result;
+}
+let xs =multiply(1,2);
+
+console.log("Dzialanie funkcji",xs);
+
+let tab = [11,22,33,44,55];
+function substract(a,b)
+{
+let x = a;
+for(let x1 =b;x1<5;x1++){
+    console.log("Petla",x[x1]);
+}
+console.log(x);
+}
+substract(tab,1);
+    </script>
+</body>
+</html>
