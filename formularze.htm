@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularze</h1>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <aside>
+        <section>
+            <head><b>Formuarz</b> <time datetime="12-31-2022"></time> 12-31-2022</head>
+
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Logowanie</legend>
+                    <p>
+                        <label for="">Wpisz imie
+                            <input type="text" name="name-wysyla-wartosc-na-serwer"
+                                    id="username"
+                                    placeholder="Wpisz nazwe usera"
+                                   value="Imie usera">
+                        </label>
+                    </p>
+                    <p>
+                        <label for="passwordId">Wpisz haslo koles</label>
+                            <input type="password"
+                                    name="password"
+                                    id="passwordId"
+                                    placeholder="Wpisz haslo"
+                                    required >
+                    </p>
+                    <p>
+                        <button type="submit">Zaloguj</button>
+                        <button type="reset">Wyczysc formularz</button>
+                    </p>
+                </fieldset>
+                
+            </form>
+            <hr>
+            <h3>Rejestracja</h3>
+            <form action="" method="post" enctype="multipart/form-data" >
+                <fieldset>
+                    <legend>Rejestracja nowego usera</legend>
+                    <input type="hidden" 
+                    name="hidden_value" 
+                    id="hiddenId"
+                    value="ukryta wartosc przekazana do serwera">
+                    <p>
+                        <label for="imieId">Wpisz imie</label>
+                        <input type="text"
+                                name="imieuser"
+                                id="imieID"
+                                placeholder="Twoje imie"
+                                value="Podaj imie"
+                                minlength="3"
+                                maxlength="10"
+                                required>
+                    </p>
+                    <p>
+                        <label for="passwordID2">Podaj haslo</label>
+                        <input type="password" 
+                                name="password" 
+                                id="passwordID2"
+                                required>
+                    </p>
+                    <p>
+                        <label for="confirmPass">Powtorz haslo</label>
+                        <input type="password" 
+                                name="passwordConf" 
+                                id="confirmPass"
+                                required>
+                    </p>
+                    <p>
+                        <label for="descId">Opis Usera</label><br>
+                        <textarea name="desc" 
+                                    id="descId" 
+                                    cols="30" 
+                                    rows="10"></textarea>
+                    </p>
+
+                    <p>
+                        <label for="avatarId">Wybierz avatar</label><br>
+                        <input type="file"
+                        name="avatar"
+                        id="avatarId"
+                        accept="image/jpg, image/png">
+                    </p>
+                    <p>
+                        <b>Tylko jeden wybor</b><br>
+                        <input type="radio" 
+                        name="color" 
+                        id="redId"
+                        value="red">
+                        <label for="redId">Czerwony</label>
+                        <input type="radio" 
+                        name="color" 
+                        id="greenId"
+                        value="green">
+                        <label for="greenId">Green</label>
+                        <input type="radio" 
+                        name="color" 
+                        id="blueId"
+                        value="blue">
+                        <label for="blueId">blue</label>
+                    </p>
+                    <p>
+                        <b>Wielokrotny wybor</b><br>
+                        <input type="checkbox" 
+                        name="brand" 
+                        id="redId"
+                        value="red">
+                        <label for="redId">Czerwony</label>
+                        <input type="checkbox" 
+                        name="brand" 
+                        id="greenId"
+                        value="green">
+                        <label for="greenId">Green</label>
+                        <input type="checkbox" 
+                        name="brand" 
+                        id="blueId"
+                        value="blue">
+                        <label for="blueId">blue</label>
+                    </p>
+                    <p>
+                        <label for="dateId">Data</label>
+                        <input type="datetime-local" name="date" id="dateId">
+                    </p>
+                    <p>
+                        <label for="colorId">Kolor</label>
+                        <input type="color" name="color" id="colorId">
+                    </p>
+                   
+                    <p>
+                        <label for="telId">Nr tel</label>
+                        <input type="tel" name="tel" id="telId">
+                    </p>
+                    <p>
+                        <label for="rangeId">Zasieg</label>
+                        <input type="range" name="range" id="rangeId"
+                        min="3" max="100" step="4">
+                    </p>
+                    <p>
+                        <label for="urlId">Strona serwisu</label>
+                        <input type="url" name="url" id="urrlId">
+                    </p>
+                    <label for="themeId">Template forum</label>
+                    <select name="theme" id="themeId">
+                        <option value="white">bialy</option>
+                        <option value="black">black</option>
+
+                    </select>
+                    <p>
+                        <button type="submit">Rejestruj</button>
+                        <button type="reset">Czysc formularz</button>
+                      </p>
+                </fieldset>
+            </form>
+        </section>
+    </aside>
+</body>
+</html>
