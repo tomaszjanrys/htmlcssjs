@@ -1,0 +1,17 @@
+body{
+    background-color:    darkslategrey;
+}
+h1{
+    color:               orangered;
+    text-decoration:       underline double;
+
+}
+h3{
+    color:               chartreuse;
+    text-decoration:       underline  ;
+
+}
+
+p {
+    color: silver;
+}
