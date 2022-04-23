@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Atrybut */
+        [data-color]{
+            background-color: olive;
+            text-align: center;
+            width: 70%;
+        }
+        /* atrubut przesukuje czy jest atrybut z wartoscia ORANGE 
+        wartosc i -> nie rozzroznia wielkosci liter
+        */
+        [data-color="orange" i]{
+            background-color: orangered;
+        }
+        [data-color="silver"]{
+            background-color: silver;
+        }
+        /* 
+        *= wyszukuje ciag liter w klasie
+        */
+        [class *= ox]{
+            background-color: blueviolet;
+        }
+        /* 
+        wyszukuje po okreslonym slowie
+        */
+        [class ~= box]{
+            font-weight: bolder;
+        }
+        /* akcent slowo ktorym zaczyna sie klkasa */
+        [class ^= small]{
+            font-size: large;
+            width: 40%;
+        }
+         /* akcent slowo ktorym konczy sie klkasa */
+        [class $= box]{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1 data-color>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="small-text str box">Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p data-color="silver">Lorem ipsum dolor sit amet consectetur.</p>
+    <p data-color="Orange">Lorem ipsum dolor sit amet consectetur.</p>
+    <h2>Lorem, ipsum dolor.
+    </h2>
+</main>    
+</body>
+</html>

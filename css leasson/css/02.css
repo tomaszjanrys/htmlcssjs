@@ -65,6 +65,17 @@ p ~ ol{
 Selektor potomka
 */
 
+/* Atrybut data */
+[data-orange]{
+    background-color: orange;
+}
+p[data-orange="orange"]{
+    background-color: orangered;
+}
+article p[data-oil="oil"]{
+    background-color: olive;
+}
+
 main h1, main p {
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-align: justify;
