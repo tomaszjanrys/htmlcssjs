@@ -1,3 +1,86 @@
 body{
-    background-color: brown;
+    background-color: rgb(51, 50, 51);
+}
+/* 
+Pseudo klasa HOVER ACTIVE VISITED local-link LINK
+*/
+a:link{
+    color: cadetblue;
+}
+a:visited{
+    background-color: silver;
+    color: white;
+}
+a:hover{
+    background-color: black;
+    color: gold;
+    
+}
+a:active{
+    background-color: blanchedalmond;
+    color: black;
+}
+/* 
+CHECKED
+*/
+input[type="checkbox"]:checked + label{
+    color: rgb(133, 250, 0);
+    font-weight: bold;
+}
+input[type="checkbox"]:checked{
+    box-shadow: 0px 0 0 2px black;
+
+}
+input[type="text"]:disabled{
+    background-color: rgba(0, 0, 0, 0.521);
+    color: aliceblue;
+}
+
+/* 
+p:first-child wybiera pierwszy p 
+*/
+p:first-child{
+    font-weight: bold;
+    color: yellow;
+}
+p:last-child{
+    font-weight: bold;
+    color: rgb(0, 240, 0);
+}
+/* 
+okresla kolejnosc pazyste EVEN nie parzyste ODD lub  element nr (3)
+*/
+p:nth-child(even){
+font-weight: bold;
+color: cyan;
+}
+p:nth-child(odd){
+font-weight: bolder;
+color: coral;
+}
+p:nth-child(7){
+    background-color: black;
+    font-weight: bolder;
+    color: rgb(238, 255, 0);
+    }
+p:nth-child(2n){
+    border: 2px solid wheat;
+}
+/* 
+
+FOCUS
+*/
+input[type="text"]:focus + label{
+    background-color: lightseagreen;
+}
+
+/* 
+NOT wybiera elementy ktore nie maja wskazanego selektora
+*/
+p:not(.intro){
+text-decoration: underline double;
+
+}
+p:not(.intro):not(.content):not(end){
+    font-size: 50px;
 }
