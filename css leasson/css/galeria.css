@@ -1,3 +1,48 @@
 body{
     background-color: brown;
 }
+.container{
+    display: flex;
+ 
+    /* wyswietlanie pionowo odwrocone */
+    flex-direction: column-reverse;
+    flex-direction: row;
+    /* konflikt row jest otatni wiec jest zastosowany */
+    flex-wrap: wrap;
+    /* wrap zawija elemnty gdy sie nie mieszcza w oknie */
+    justify-content: start;
+    justify-content: flex-end;
+    justify-content: center;
+    
+
+
+}
+.imiges-box{
+    background-color: black;
+    box-shadow: 2px 2px 22px 2px black;
+    border-radius: 10px;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+
+
+}
+.imiges-box div::first-letter{
+    color: orangered;
+    font-size: 30px;
+}
+.imiges-box div::selection{
+color: rgb(200, 255, 0);
+}
+.imiges-box:hover {
+ transform: scale(1.1);
+ transition: all 1s ;
+ 
+ background-color: rgb(233, 233, 233);
+ color: black;
+}
+img{
+    width: 500px;
+}
