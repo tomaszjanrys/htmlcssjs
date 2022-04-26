@@ -22,7 +22,7 @@ body{
     box-shadow: 2px 2px 22px 2px black;
     border-radius: 10px;
     color: white;
-    margin: 15px;
+    margin: 100px auto 0 auto ;
     padding: 10px;
     text-align: center;
     width: 500px;
@@ -37,7 +37,7 @@ body{
 color: rgb(200, 255, 0);
 }
 .imiges-box:hover {
- transform: scale(1.1);
+ transform: scale(1.5);
  transition: all 1s ;
  
  background-color: rgb(233, 233, 233);
@@ -45,4 +45,29 @@ color: rgb(200, 255, 0);
 }
 img{
     width: 500px;
+}
+/* 
+tabelka
+*/
+table tr td{
+    font-size: 25px;
+    padding: 5px;
+}
+table{
+    margin: auto;
+}
+/* 
+input check box
+ */
+ input[type="checkbox"]:checked{
+
+    box-shadow: 0px 0 15px 2px rgb(145, 255, 0);
+    transform: scale(2);
+    transition: all 1s ;
+
+}
+table tr td::selection {
+ 
+    color: orange;
+    
 }
