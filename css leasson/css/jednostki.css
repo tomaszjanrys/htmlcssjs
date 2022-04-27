@@ -1,0 +1,20 @@
+html{
+    font-size: 20px;
+}
+
+
+section{
+    background-color: black;
+    display: flex;
+    flex-direction: column ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div{
+    width: 888px;
+    height: 200px;
+    background-color: #253;
+    font-size: 1rem;
+    padding: .050rem;
+    margin: 1rem;
+}
