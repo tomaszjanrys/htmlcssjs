@@ -14,7 +14,13 @@ div{
     width: 888px;
     height: 200px;
     background-color: #253;
-    font-size: 1rem;
+    font-size: 5vh;
     padding: .050rem;
     margin: 1rem;
+}
+
+.div{
+    background-color: blueviolet;
+    width: 50vh;
+    height: 100px;
 }
