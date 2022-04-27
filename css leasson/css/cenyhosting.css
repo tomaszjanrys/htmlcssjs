@@ -1,0 +1,127 @@
+*
+{
+    font-size:      20px;
+    margin:          0;
+    padding:         0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+
+*/
+body{
+    background-color: rgb(75, 14, 34);
+}
+
+/* 
+div ofer
+*/
+.offer{
+display: flex;
+margin-top: 10rem;
+flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+justify-content: center;
+
+}
+
+/* 
+end offer
+*/
+
+/* 
+plan
+
+*/
+.plan{
+    background-color: #14115a;
+    box-shadow: 0 2px 12px 2px black;
+    border-radius: .5rem;
+    color: #c0c0c0;
+    margin: 12px;
+    overflow: hidden;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.plan h2{
+    margin-bottom: .5rem;
+    font-size: 1.4rem;
+}
+.plan .price{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+.plan .price .fa-money-bill-1-wave {
+    color: rgb(38, 165, 0);
+ 
+}
+.plan .fa-solid{
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+/* 
+end plan
+*/
+
+/* 
+
+details
+*/
+
+.plan ul.details{
+    list-style-type: none;
+    text-align: left;
+}
+
+.plan ul.details li{
+    margin: .5rem;
+}
+.plan ul.details li::selection{
+    color: greenyellow;
+}
+.plan li .fa-check{
+    color: rgb(0, 255, 21);
+}
+.plan li .fa-xmark{
+    color: red;
+}
+.plan li .fa-drumstick-bite{
+    color: #ff9900e3;
+}
+.plan a {
+    background-color: #0077ff;
+    border-radius: .5rem;
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    text-decoration: none;
+
+}
+.plan a:hover{
+    color: rgb(255, 187, 0);
+    box-shadow: 0 10px 10px 2px rgb(0, 0, 0);
+    transform: scale(1.1);
+    transition: all 1s ;
+}
+.plan.top{
+    border: 2px solid rgb(115, 255, 0);
+}
+.listing-badges{
+position: relative;
+}
+.plan.top span {
+    
+    background-color: gold;
+    box-shadow: 0 0 22px 3px rgb(248, 248, 248);
+    color: red;
+    left: -4rem;
+    position: absolute;
+    padding: .5rem;
+    top: -.5rem;
+    transform: rotate(-45deg);
+    width: 8rem;
+}
