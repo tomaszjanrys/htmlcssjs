@@ -1,0 +1,25 @@
+body{
+    background-color: coral;
+}
+
+article{
+    color: rgb(0, 30, 201);
+    font-size: 55px;
+    border: 21px solid black;
+    padding: 55px;
+}
+
+#art{
+    color: chartreuse;
+}
+p.px{
+
+    color: aqua;
+}
+article p.px {color: inherit;}
+/* wymuszone dziedzicznie po rodzicu  */
+
+p {
+    border: inherit;
+    padding: inherit;
+}
