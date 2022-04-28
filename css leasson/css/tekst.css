@@ -23,8 +23,12 @@
     padding: 1rem;
     text-indent: 2rem;
     text-decoration: overline .17rem rgb(255, 153, 0) double;
+    text-decoration-thickness: 2px;
     line-height: 2rem;
     letter-spacing: .2rem;
+    column-count: 4;
+    column-gap: 2rem;
+    column-rule: 2px double black ;
 }
 .span1{
   
