@@ -9,7 +9,7 @@
 
 */
 body{
-    background-color: rgb(75, 14, 34);
+    background-color: #041b35;
 }
 
 /* 
@@ -124,4 +124,73 @@ position: relative;
     top: -.5rem;
     transform: rotate(-45deg);
     width: 8rem;
+}
+
+/* 
+SECTION GIT
+*/
+.table{
+    color:            bisque;
+    display:            flex;
+    margin:             3rem 0 0 0;
+    flex-wrap:          wrap;
+    justify-content:    center;
+    background-color: #c0c0c0;
+
+}
+.table h1 {
+    font-size:          1.5rem;
+    letter-spacing:     .2rem;
+    padding:            0 1rem 0 1rem;
+    word-spacing:       .3rem;
+
+}
+.table-name{
+  
+    background-color:   #335fbe;
+    box-shadow:             5px 5px 11px 1px black;
+    border-radius:          2rem;
+    margin:                 1rem 1rem 3rem 1rem ;
+    padding:                1rem 2rem 1rem 2rem;
+    width:                  30rem;
+  
+    
+}
+.table-name ul>li{
+    border-left:            .3rem solid rgb(2, 48, 117) ;
+    letter-spacing:         .1rem;
+    list-style:             none;
+    margin:                 2rem 0 2rem 0;
+    padding:                0 .8rem 0 .8rem;
+    text-align:             left;
+    word-spacing:           .2rem;
+}
+.table-name ul>li:nth-child(even){
+    border-left:            .3rem solid rgb(255, 238, 0) ;  
+}
+
+.table h1::first-letter{
+    color:                   orangered;
+    
+}
+.table-name ul>li::first-line{
+   text-indent:             1.5rem;
+    
+}
+
+/* 
+
+footer
+*/
+.main-foot{
+background-color: #041b35;
+width:              100%;
+height:             20rem;    
+text-align:         center;
+}
+.main-foot h1 {
+    color:          orangered;
+    padding: 5rem;
+    font-size:      3rem;
+
 }
