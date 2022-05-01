@@ -1,0 +1,39 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: orangered;
+}
+.test1{
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+    border: 3px solid black;
+    padding: 5px;
+    overflow: hidden;
+}
+.test2{
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+    border: 3px solid black;
+    padding: 5px;
+    overflow: scroll;
+}
+.test3{
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+    border: 3px solid black;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+.test4{
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+    border: 3px solid black;
+    padding: 5px;
+    overflow: scroll;
+}
