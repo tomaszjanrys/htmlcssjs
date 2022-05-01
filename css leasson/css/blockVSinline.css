@@ -1,0 +1,36 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    background-color: orangered;
+}
+.test{
+    background-color: burlywood;
+    width: 100px;
+    height: auto;
+}
+.test1{}
+.test2{}
+.test3{}
+.sp1{
+    background-color: brown;
+}
+.sp2{
+    display: block;
+    background-color: brown;
+}
+.sp3{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 101px;
+    margin-right: 111px;
+    background-color: brown;
+}
+.sp4{
+    display: none;
+    background-color: brown;
+}
+.d1{
+    
+    background-color: blueviolet;
+}
