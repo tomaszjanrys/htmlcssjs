@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+.content{
+    border: 1px solid red;
+}
+.left{
+    float: left;
+    margin: 10px;
+}
+.right{
+    float: right;
+    margin: 10px;
+}
+span {
+    float: left;
+    padding: 3px;
+    background-color: brown;
+    margin: 3px;
+}
+/* .content{
+    overflow: auto;
+} */
+.content::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.left-columm{
+width: 75%;
+background-color: gold;
+float: left;
+height: 555px
+}
+.sidebar{
+    background-color: orangered;
+    float: left;
+    width: 25%;
+}
+.sidebar ul>li{
+    font-size: 2vw;
+
+}
+article , aside{
+    
+    padding: 22px;
+}
+.page{
+    margin: 0 50px 0 50px;
+}
