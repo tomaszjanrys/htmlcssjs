@@ -110,3 +110,11 @@ section{
         height: auto;
     }
 }
+.wraper{
+    background-color: aquamarine;
+    height: 100vh;
+}
+svg{
+    width: 100%;
+    height: auto;
+}
