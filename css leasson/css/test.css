@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+    color: aliceblue;
+  
+
+}
+
+
+html{
+    background-color: brown;
+    margin: 100px;
+  
+
+
+}
+
+body{
+margin: 0;
+}
+.one{
+    position: relative;
+    background-color: black;
+    float: left;
+    width: 33.33%;
+    height: 50rem;
+    color: gold;
+    font-size: 29px;
+ 
+    
+
+}
+.two{
+    float: left;
+    background-color: rgb(255, 145, 0);
+    width: 33.33%;
+    height: 50rem;
+
+  
+
+}
+.three{
+    background-color: rgb(23, 22, 68);
+    width: 100%;
+    height: auto;
+ 
+    clear: both;
+
+}
+.menu1{
+
+    
+    position: relative;
+    background-color: rgb(36, 56, 231);
+    color: cadetblue;
+    width: 100%;
+    height: auto;
+    font-size: 2vmin;
+}
+.menu1 p{
+    padding: 20px;
+}
+.one1 {
+    background-color: greenyellow;
+    border: 1px solid rgb(0, 81, 255);
+    width: 20%;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+
+ 
+}
+.three{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section{
+    background-color: coral;
+}
+.inner{
+    background-color: brown;
+    width: 50%;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    html{
+        margin: 10px;
+    }
+    .one, .two {
+        width: 10rem;
+        display: block;
+        height: 100px;
+
+      
+    }
+    .menu1{
+        display: none;
+    }
+    .three{
+        width: 80%;
+        flex-wrap: nowrap;
+     
+    
+    }
+    .one1{
+        height: auto;
+    }
+}
