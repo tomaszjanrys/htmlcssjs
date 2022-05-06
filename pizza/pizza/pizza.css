@@ -60,7 +60,7 @@ body{
     width:              20%;
     }
 .img-src{
-        animation:          logo-move 5s infinite;
+        animation:      logo-move 5s infinite;
         float:          left;
         margin:         0rem 2rem .2rem 2rem;
     }
@@ -113,7 +113,7 @@ display:            block;
 /* meadia for menu  */
 @media screen and (max-width:900px) {
 .menu-one{
-    width:      100%;
+    width:          100%;
 
    }
 .menu-one ul li{
@@ -127,7 +127,7 @@ display:            block;
     font-size:      1.5rem;
 }
 .menu-two{
-    width:      100%;
+    width:          100%;
 }
 .menu-two ul li a{
     font-size:      1.5rem;
@@ -161,8 +161,8 @@ display:            block;
 /* end all nav & logo */
 /* svg */
 .container-svg{
-    position: relative;
-    z-index: 999;
+    position:           relative;
+    z-index:            999;
 }
 .text-on-svg{
     background-color:     rgb(139, 0, 0);
@@ -174,35 +174,81 @@ display:            block;
     transform:              rotate(-7.5deg);
     text-align:             justify;
 }
+/* media .text-on-svg */
+@media screen and (max-width:900px) {
+    .text-on-svg{
+        top:            -1rem;
+        font-size:      1.5rem ;
+        left:           0rem;
+        width:          60%;
+        padding:        1rem;
+        transform:      rotate(0deg);
+        
+    }
+
+}
+/* end media */
 svg{
     
     width:      100%;
 
  
 }
+
 /* end svg */
 
 /* main slider box */
 
 .slider-box{
-    position: absolute;
-        top: 7.5rem;
-    background-color: rgb(17, 17, 17);
-    height: 40rem;
-    width: 100%;
-    z-index: 1;
+    position:            absolute;
+        top:             7.5rem;
+    background-color:    rgb(17, 17, 17);
+    height:              40rem;
+    width:               100%;
+    z-index:             1;
 }
 .slider-half-item{
-    float: left;
-    height: 100%;
-    padding: 1rem;
-    width: 50%;
-    border: 1px solid white;
+    float:          left;
+    height:         100%;
+    
+    width:          50%;
+    border:         1px solid white;
 
 }
 .slider-half-item article{
-    margin: 10rem;
+    margin:         10rem;
 }
 
+/* media slider box */
+@media screen and (max-width:900px){
+    svg{
+        display:            none;
+    }
+    .slider-box{
+        background-color:    rgb(0, 0, 0);
+        height:                auto;
+        
+    }
+    .slider-half-item{
+    
+        display:            block;
+        
+        width:              100%;
+    }
+    .slider-one{
+
+    }
+    .slider-two{
+      
+        height:             10rem;
+
+    }
+    .slider-half-item img{
+        width:              100%;
+    
+    }
+}
+
+/* end media slider box */
 
 
