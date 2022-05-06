@@ -1,0 +1,208 @@
+*, ::after,::before{
+    box-sizing:         border-box;
+    margin:             0;
+ /*    border: 1px solid wheat; */
+
+}
+
+html{
+   
+    color:                  whitesmoke;    
+    font-size:                20px;
+}
+
+body{
+    background:              url("./img/bg.jpg")  no-repeat center center  fixed;
+    background-size:         cover;
+
+ 
+ 
+    
+}
+/* header */
+#header{
+    position:               relative;
+    background-color:        black;
+    font-family:            'Cookie', Arial, Helvetica, sans-serif;
+    padding:                 1rem;
+    z-index:                 2;
+
+}
+/* Media*/
+@media screen and (max-width:920px)
+{
+    #header
+        {
+            padding:    .5rem;
+        }
+}
+
+/* end header */
+
+
+/* nav one nav two logo */
+
+.menu-one{
+    float:      left;
+    width:      40%;
+    }
+.menu-one ul li{
+    display:            inline-block;
+    padding:            1rem;
+    text-align:         left;
+}
+
+/* logo */
+.logo{
+    
+    float:              left;
+    text-align:         center;
+    width:              20%;
+    }
+.img-src{
+        animation:          logo-move 5s infinite;
+        float:          left;
+        margin:         0rem 2rem .2rem 2rem;
+    }
+.phone{
+        float:      left;
+      
+        font-size:  2rem;
+      
+       
+       
+    }
+/* end logo */
+.menu-two{
+  
+    float:          right;
+    text-align:     right;
+    width:          40%;
+    }
+.menu-two ul li {
+    display:        inline-block;
+    list-style:     none;
+    padding:        1rem;
+    
+}
+.menu-one ul li a, .menu-two ul li a{
+    color:           wheat;
+    font-size:          2rem;
+    text-decoration:    none;
+}
+.menu-one ul li a:hover, .menu-two ul li a:hover{
+    color:          orangered;
+}
+.menu-one ul li::first-letter, .menu-two ul li::first-letter{
+color:          red;
+font-size:        3rem;
+}
+/* clear fix float */
+.clear-fix::after{
+content:            " ";
+clear:              both;
+display:            block;
+}
+/* end cf */
+
+@keyframes logo-move {
+    50% {transform: rotate(180deg);}
+  }
+
+
+/* meadia for menu  */
+@media screen and (max-width:900px) {
+.menu-one{
+    width:      100%;
+
+   }
+.menu-one ul li{
+    display:        block;
+    text-align:     center;
+    padding:        0;
+       
+   }
+
+.menu-one ul li a{
+    font-size:      1.5rem;
+}
+.menu-two{
+    width:      100%;
+}
+.menu-two ul li a{
+    font-size:      1.5rem;
+   
+  
+}
+.menu-two ul li {
+    display:        block;
+    padding:        0;
+    text-align:     center;
+    
+}
+.logo{
+    width:      100%;
+}
+    
+.img-src{
+  margin:   0 45% .4rem 45%;
+}
+.phone{
+    letter-spacing:         1rem; 
+    display:                inline;
+    font-size:              1rem;
+    text-align:             center;
+    width:                  100%;
+}
+
+}
+/* end */
+
+/* end all nav & logo */
+/* svg */
+.container-svg{
+    position: relative;
+    z-index: 999;
+}
+.text-on-svg{
+    background-color:     rgb(139, 0, 0);
+    font-size:              2rem;
+    padding:                1rem;
+    position:               absolute;
+        top:                5rem;
+        left:               20rem;
+    transform:              rotate(-7.5deg);
+    text-align:             justify;
+}
+svg{
+    
+    width:      100%;
+
+ 
+}
+/* end svg */
+
+/* main slider box */
+
+.slider-box{
+    position: absolute;
+        top: 7.5rem;
+    background-color: rgb(17, 17, 17);
+    height: 40rem;
+    width: 100%;
+    z-index: 1;
+}
+.slider-half-item{
+    float: left;
+    height: 100%;
+    padding: 1rem;
+    width: 50%;
+    border: 1px solid white;
+
+}
+.slider-half-item article{
+    margin: 10rem;
+}
+
+
+
