@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 20px;
+}
+body{
+    background-color:  #3f87a6;
+    
+}
+
+.container{
+    border: 1px solid black;
+    height: 10rem;
+    font-size: 5rem;
+}
+
+.clock{
+    margin: 0 10rem;
+    background-color: cadetblue;
+    height: 100%;
+    text-align: center;
+    padding: auto ;
+}
+.clock::after{
+    content: "s";
+    font-size: 2rem;
+}
+
+
+.jokeChuck{
+    text-align: justify;
+    color: rgb(96, 8, 99);
+    font-weight: bolder;
+    font-size: 10vmin;
+    margin: 5rem;
+}
