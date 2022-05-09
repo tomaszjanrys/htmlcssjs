@@ -12,4 +12,24 @@ html{
 body{
     background-color: cadetblue;
 }
-
+.container{
+    border: 2px solid black;
+    margin-top: 10rem;
+    height: auto;
+    font-size: 2rem;
+    opacity: .9;
+}
+.column{
+    float: left;
+    background-color: brown;
+    width: 50%;
+    padding: 3rem;
+    height: 100%;
+    text-align: center;
+   
+    
+}
+.container::after{
+    content: "";
+    display: block;
+}
