@@ -1,0 +1,76 @@
+*{
+    box-sizing:     border-box;
+    margin:         0;
+    font-size:      20px;
+    padding:        0;
+
+}
+
+body{
+    background-color: rgb(41, 56, 105);
+}
+
+.container{
+    background-color: blueviolet;
+
+    width:          50%;
+    height:         10rem;
+}
+.calculator{
+    background-color: brown;
+ 
+}
+
+#input{
+    display:        block;
+    font-size:      2rem;
+    margin:         1rem auto;
+    padding:        .5rem;
+    text-align:     right;
+
+    width:          100%;
+}
+.numbers button, .operators button{
+    background-color: rgba(0, 195, 255, 0.753);
+    border-radius:      .5rem;
+    border:             0;
+    box-shadow:         2px 3px 10px black;
+    display:            inline-block;
+    height:             4rem;
+    margin:             .2rem;
+    padding:            1rem;
+    opacity:            .8;
+    width:              4rem;
+}
+button.big-btn{
+    height:         8.3rem;
+  
+}
+button.result{
+    background-color: rgb(222, 184, 135);
+}
+button.clear{
+    background-color: rgb(218, 209, 89);
+}
+button:hover{
+    background-color:            rgba(0, 31, 51, 0.671);
+
+   
+    transition:                     all .5s ease-in-out;
+
+ }
+ button:active{
+    box-shadow:                     inset 1px 1px 10px black;
+    color:                       bisque;
+    font-weight:                    bold;
+    opacity:                        1;
+    transition:                     all .1s ease-in-out;
+    transform:                      scale(.95);
+ }
+
+ .left-panel, .right-panel{
+     display:           inline-block;
+     margin:            1rem;
+     vertical-align:    top;
+ }
+ 

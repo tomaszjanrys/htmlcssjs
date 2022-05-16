@@ -1,0 +1,31 @@
+*{
+    box-sizing:         border-box;
+    font-size:          20px;
+    margin:             0;
+    padding:            0;
+}
+
+body{
+    background-color: rgb(20, 34, 78);
+
+}
+
+.container{
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+label{
+color: orangered;
+
+}
+input{
+margin-left: 4rem;    
+}
+#int-rate{
+    margin-left: .5rem;
+}
+
+
+
+
