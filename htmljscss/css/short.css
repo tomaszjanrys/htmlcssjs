@@ -1,0 +1,94 @@
+*{
+    box-sizing:     border-box;
+    font-size:      20px;
+    margin:         0;
+    
+    padding:        0;
+
+}
+
+
+body{
+    background: linear-gradient(91deg,rgb(0, 128, 122),rgb(0, 255, 149));
+}
+
+.container{
+    display:                flex;
+    flex-wrap:              wrap;
+    flex-direction:         column;
+    margin:                 5rem;
+
+}
+
+.adress{
+    background-color: rgba(31, 71, 71, 0.418);
+    border-radius:      1rem;
+   
+    color:          aliceblue;
+    font-size:          4vmin;
+    height:             auto;
+ 
+    overflow:           hidden;
+    padding:            1rem 0 1rem 0;
+    width:              100%;
+    text-align:         center;
+}
+
+/* button*/
+.btn{
+    background-color:            rgba(251, 255, 0, 0.212);
+    border-radius:                  1rem;
+    border:                         0;
+    font-family:                    'Times New Roman', Times, serif;
+    padding:                        .5rem;
+
+}
+.btn:hover{
+    background-color:               rgba(204, 0, 78, 0.568);
+    
+    box-shadow:                     2px 4px 5px black;
+    transition:                     all .3s ease-in-out;
+}
+/*  */
+
+
+.column{
+
+    background-color:   rgba(165, 42, 42, 0.322);
+    color:              aliceblue;
+    margin:             1rem auto;
+    padding:            1rem;
+    
+    width:              50%;
+}
+.column a {
+    color:                bisque;
+    text-decoration:        none;
+
+}
+
+/* input */
+.ipt{
+    background-color:       rgba(0, 0, 0, 0.473);
+    border:                     0;
+    color:                  rgb(255, 255, 255);
+    margin:                 1rem 0 1rem 0;
+    padding:                .2rem;
+    width:                  100%;
+}
+.ipt-address{
+    font-size:          10vmin;
+}
+
+
+/* rwd */
+@media screen and (max-width:920px){
+    .column{
+        border-bottom:          .1rem solid rgba(255, 255, 255, 0.048);
+        margin:                 0;
+        width:                  100%;
+    }
+    .container  {
+        margin:             0;
+    }
+}
