@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background-color: silver;
+
+}
+#ipt1{
+    display: block;
+    border: none;
+    border-bottom: .2rem solid rgb(26, 63, 231);
+    background-color:transparent;
+    outline: none;
+    margin: auto;
+    padding: 1rem;
+}
+#ipt2{
+    padding: 1rem;
+    margin: auto;
+    display: block;
+    border: none;
+    border-bottom: .2rem solid rgb(208, 243, 10);
+    background-color:transparent;
+    outline: none;
+}
+section{
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
